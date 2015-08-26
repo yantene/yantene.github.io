@@ -1,0 +1,121 @@
+div#surface {
+  background-color: hsl(175, 50%, 93%);
+  box-shadow:0px 0px 25px 1px #000000;
+}
+
+header {
+  padding: 10px 0;
+  text-align: center;
+  background-color: hsl(175, 50%, 80%);
+}
+
+header img {
+  max-height: 130px;
+  max-width: 100%;
+}
+
+div#content {
+  padding: 20px;
+}
+
+div#main {
+  padding-right: 3px;
+}
+
+div#date {
+  font-size: 2.5rem;
+}
+
+div#tags {
+  text-align: right;
+}
+
+span#tag {
+  margin: 2px;
+}
+
+div#postheader {
+  border-bottom: solid 1px rgb(221, 221, 221);
+  box-shadow: 0px 1px rgba(221, 221, 221, 10%);
+  margin: 0 0 20px 0;
+}
+
+div#main h1 {
+  margin: 0;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+div#main h2 {
+  font-size: 2.3rem;
+  font-weight: bold;
+}
+
+div#main h3 {
+  font-size: 2.1rem;
+  font-weight: bold;
+}
+
+div#main h4 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+div#main h5 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+div#main h6 {
+  font-size: 1.9rem;
+  font-weight: bold;
+}
+
+div#main img {
+  width: 100%;
+}
+
+div#postfooter {
+  border-top: solid 1px rgb(221, 221, 221);
+  box-shadow: 0px -1px rgba(221, 221, 221, 10%);
+  margin: 20px 0 0 0;
+}
+
+div#prevpost {
+  text-align: left;
+}
+
+div#nextpost {
+  text-align: right;
+}
+
+div#sidebar {
+  padding-left: 3px;
+  font-size: 1.3rem;
+}
+
+div#sidebar ul {
+  list-style-type: none;
+  margin: 5px 10px;
+}
+
+div.menu_title {
+  font-size: 150%;
+  font-weight: bold;
+  text-shadow:  1px  1px 0px #FFFFFF,
+                1px -1px 0px #FFFFFF,
+               -1px  1px 0px #FFFFFF,
+               -1px -1px 0px #FFFFFF;
+}
+
+input#search {
+  width: 100%;
+}
+
+footer {
+  height: 25px;
+  padding: 0 20px;
+  text-align: center;
+  color: #FFFFFF;
+  background-color: hsl(175, 50%, 50%);
+}

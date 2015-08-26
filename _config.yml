@@ -1,0 +1,15 @@
+name: yantene.net
+description: yantene's blog
+author: yantene
+url: http://yantene.net
+encoding: utf-8
+permalink: :title.html
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+  enable_coderay: false
+  syntax_highlighter: rouge
+
+exclude: ['vendor', 'Gemfile', 'Gemfile.lock']
