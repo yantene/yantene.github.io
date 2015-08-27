@@ -1,3 +1,21 @@
+@font-face {
+  font-family: 'emojisymbols';
+  src: url('/fonts/EmojiSymbols-Regular.woff');
+  /*
+   * Emoji Symbols Font (c)blockworks - Kenichi Kaneko
+   * http://emojisymbols.com/
+   */
+}
+
+body {
+  font-family: 'Migu 1C',
+               'Noto Sans CJK JP',
+               'Meiryo',
+               'Hiragino Kaku Gothic ProN',
+               'sans-serif',
+               'emojisymbols';
+}
+
 div#surface {
   background-color: hsl(175, 50%, 93%);
   box-shadow:0px 0px 25px 1px #000000;
