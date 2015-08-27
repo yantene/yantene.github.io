@@ -9,7 +9,7 @@ tags: [Web, プログラミング, GNU/Linux]
 学内ネットワークより Dream Campus へ接続することで
 今期の修得単位と評価の確認ができるようになるわけですが，
 自宅より VPN を通してアクセスを行おうとすると
-IP アドレスにより弾かれてしまいます．
+IP アドレスで弾かれてしまいます．
 
 ![](/images/2015-08-27-tut_tani_checker/refuse.png)
 
@@ -26,8 +26,10 @@ SSH の X11 forwarding を用い Firefox を立ち上げる手法や，
 
 [TUT TAN'I Checker - https://github.com/yantene/tut_tani_checker](https://github.com/yantene/tut_tani_checker)
 
-VPN を張り， SSH でログインしたら，
-あとは README.md に記述した手順を踏めば良いだけなので簡単だと思います．
+VPN を張り， SSH でログインしたら，あとは
+[README.md](https://github.com/yantene/tut_tani_checker/blob/master/README.md)
+に記述した手順を踏めば良いだけなので，
+スクリプトの使用方法自体は難しくないと思います．
 
 しかし Dream Campus にログインする必要があるため，
 パスワードを入力するステップが存在します．
@@ -36,7 +38,9 @@ VPN を張り， SSH でログインしたら，
 
 ## コード説明
 
-プログラムは，ソースファイル `tut_tani_checker.sh` 1つからなります．
+プログラムは，ソースファイル
+[tut_tani_checker.sh](https://github.com/yantene/tut_tani_checker/blob/master/tut_tani_checker.sh)
+1つからなります．
 見ての通り， `bash` のシェルスクリプトです．
 
 以下， 処理の始まる 20 行目から順に解説を行います．
@@ -144,6 +148,8 @@ curl "$DC_LOGIN" \
 
 ここからは全成績を表示するページまで延々とたどっていきます．
 
+#### 成績照会から成績明細へ
+
 まず，成績照会のページを開きます．
 ここは，どの成績を照会するか選択を行う画面です．
 `$DC_SELECT` に成績照会のページの URL が格納されています．
@@ -178,6 +184,8 @@ results_html=`curl "$DC_SELECT" \
 ```
 
 ![](/images/2015-08-27-tut_tani_checker/fifty.png)
+
+#### 全件の成績を表示
 
 この時点では成績を 50 件しか取得できていません．
 全件の成績が欲しいので，
