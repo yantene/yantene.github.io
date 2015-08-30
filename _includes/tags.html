@@ -4,7 +4,7 @@
 <ul>
 {% for tag in site.tags %}
 <li>
-  {{ tag | first }}
+  #{{ tag | first }}
   <ul>
     {% for post in tag[1] limit:3 %}
     <li>
