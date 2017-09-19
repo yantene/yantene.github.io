@@ -28,9 +28,9 @@ function setMenuTitleStyle() {
     var origTitle = '# ' + menuTitle.innerHTML.replace(/[\s\r\n]+/g, '');
     var styledTitle = '';
 
-    var h = 0.1;
+    var h = 0.95;
     var s = 0.5;
-    var l = 0.75;
+    var l = 0.6;
 
     for (var i = 0; i < origTitle.length; ++i) {
       styledTitle +=
