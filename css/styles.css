@@ -1,12 +1,3 @@
-@font-face {
-  font-family: 'emojisymbols';
-  src: url('/fonts/EmojiSymbols-Regular.woff');
-  /*
-   * Emoji Symbols Font (c)blockworks - Kenichi Kaneko
-   * http://emojisymbols.com/
-   */
-}
-
 body {
   font-family: 'Migu 1C',
                'Noto Sans CJK JP',
