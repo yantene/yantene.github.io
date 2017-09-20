@@ -12,4 +12,4 @@ kramdown:
   enable_coderay: false
   syntax_highlighter: rouge
 
-exclude: ['vendor', 'Gemfile', 'Gemfile.lock']
+exclude: ['vendor', 'Gemfile', 'Gemfile.lock', 'deploy.sh']
