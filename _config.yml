@@ -1,7 +1,7 @@
 name: yantene.net
-description: weblog
+description: やんてねの雑記帳
 author: yantene
-url: http://yantene.net
+url: https://yantene.net
 encoding: utf-8
 permalink: :title.html
 
