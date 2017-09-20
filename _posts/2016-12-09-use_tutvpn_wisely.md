@@ -21,6 +21,7 @@ TUT VPN で使われている AnyConnect SSL VPN Protocol の仕様は残念な�
 それと互換のある
 [OpenConnect VPN Protocol](https://tools.ietf.org/id/draft-mavrogiannopoulos-openconnect-00.html)
 は IETF に仕様のドラフトが公開されています．
+<!-- more -->
 また，この実装である
 [OpenConnect](http://www.infradead.org/openconnect/)
 は，GNU LGPL で公開されています．

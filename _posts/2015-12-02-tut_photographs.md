@@ -8,6 +8,8 @@ tags: [日記]
 [TUT Advent Calendar 2015](http://www.adventar.org/calendars/785)
 の 2 日目の記事です．
 
+<!-- more -->
+
 ## はじめに
 
 B4 のみなさま，卒研お疲れ様です．

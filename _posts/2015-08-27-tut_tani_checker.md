@@ -22,6 +22,7 @@ SSH の X11 forwarding を用い Firefox を立ち上げる手法や，
 
 今回は，この成績確認をターミナル内で完結させることを目的に，
 手軽に成績確認の行えるスクリプトを書いてみました．
+<!-- more -->
 プログラムは GitHub で公開しています．
 
 [TUT TAN'I Checker - https://github.com/yantene/tut_tani_checker](https://github.com/yantene/tut_tani_checker)

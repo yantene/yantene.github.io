@@ -19,6 +19,8 @@ tags: [GNU/Linux, 備忘録]
 VAIO Pro がかえってきたらすぐにインストールができるよう，
 仮想マシンを使って手順を確認しておこうと思います．
 
+<!-- more -->
+
 なお，SSDに関するエラーの回避など，
 [VAIO Pro 特有に必要となる追加作業](https://wiki.archlinux.org/index.php/Sony_Vaio_Pro_SVP-1x21)
 もありますが，今回はそれに触れず一般的なインストール作業のみをまとめます．

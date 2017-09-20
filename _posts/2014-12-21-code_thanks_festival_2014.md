@@ -15,6 +15,8 @@ tags: [日記, 参加記, 競技プログラミング]
 来年もCODE FESTIVALが開催されれば，
 技科大生に参加してほしいなという思いだと受けとって下さい．
 
+<!-- more -->
+
 ## CODE FESTIVAL とは？
 
 [CODE FESTIVAL](http://recruit-jinji.jp/code_fes2014/)

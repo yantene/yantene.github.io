@@ -14,6 +14,7 @@ tags: [日記, GNU/Linux, 備忘録]
 そこでこんなタブレット端末を見かけました．
 [KEIAN KVI-70B](http://www.amazon.co.jp/dp/B015QZIT9C/ref=as_sl_pc_tf_lc?tag=yantene-22&camp=243&creative=1615&linkCode=as1&creativeASIN=B015QZIT9C&adid=038ZD8BCGB0Y1SZQPN5A&&ref-refURL=http%3A%2F%2Frcm-fe.amazon-adsystem.com%2Fe%2Fcm%3Ft%3Dyantene-22%26o%3D9%26p%3D8%26l%3Das1%26asins%3DB015QZIT9C%26ref%3Dtf_til%26fc1%3D000000%26IS2%3D1%26lt1%3D_blank%26m%3Damazon%26lc1%3D0000FF%26bc1%3DFFFFFF%26bg1%3DFFFFFF%26f%3Difr)
 約 ¥10,000 の Windows10 タブレットです．
+<!-- more -->
 昨年の夏に秋葉原で買った WinTab7 とその姿形は非常に似ており，
 また技適証明番号は同一のため，
 恐らく OS をアップグレードしたマイナーチェンジモデルだと思います．
