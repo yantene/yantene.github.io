@@ -5,14 +5,16 @@ layout: default
   <div id='date'>
     {{page.date | date: "%Y-%m-%d"}}
   </div>
-  <h1>
+  <h1 id='article_title'>
     {{page.title}}
   </h1>
   <div id='tags'>
     {% for tag in page.tags %}
-    <span id='tag'>
-      #{{ tag }}
-    </span>
+    <a href='/list.html?tag={{ tag }}'>
+      <span id='tag'>
+        #{{ tag }}
+      </span>
+    </a>
     {% endfor %}
   </div>
 </div>

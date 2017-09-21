@@ -3,17 +3,9 @@
 </div>
 <ul>
 {% for tag in site.tags %}
+{% capture name %}{{ tag[0] }}{% endcapture %}
 <li>
-  #{{ tag | first }}
-  <ul>
-    {% for post in tag[1] limit:3 %}
-    <li>
-      <a href="{{ post.url }}">
-        {{ post.title }} ({{ post.date | date: "%m/%d"}})
-      </a>
-    </li>
-    {% endfor %}
-  </ul>
+  <a href='/list.html?tag={{ name }}'>#{{ name }}</a> ({{ site.tags[name] | size }})
 </li>
 {% endfor %}
 </ul>

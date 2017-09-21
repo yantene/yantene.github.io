@@ -10,9 +10,11 @@
     </a>
     <div id='tags'>
       {% for tag in post.tags %}
-      <span id='tag'>
-        #{{ tag }}
-      </span>
+      <a href='/list.html?tag={{ tag }}'>
+        <span id='tag'>
+          #{{ tag }}
+        </span>
+      </a>
       {% endfor %}
     </div>
   </div>
