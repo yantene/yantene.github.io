@@ -20,17 +20,17 @@ tags: [日記, 競技プログラミング]
 
 ```java
 public class YahtzeeScore{
-　public int maxPoints(int[] toss){
-　　int[] detame = new int[6];
-　　int i, max = 0;
-　　for(i = 0; i < 6; i++) detame[i] = 0;
-　　for(i = 0; i < 5; i++){
-　　　detame[toss[i]-1] += toss[i];
-　　}
-　　for(i = 0; i < 6; i++){
-　　　if(detame[i] > max) max = detame[i];
-　　}
-　　return max;
-　}
+  public int maxPoints(int[] toss){
+    int[] detame = new int[6];
+    int i, max = 0;
+    for(i = 0; i < 6; i++) detame[i] = 0;
+    for(i = 0; i < 5; i++){
+      detame[toss[i]-1] += toss[i];
+    }
+    for(i = 0; i < 6; i++){
+      if(detame[i] > max) max = detame[i];
+    }
+    return max;
+  }
 }
 ```
