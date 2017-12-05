@@ -46,23 +46,24 @@ div#content {
 
 div#main {
   padding-right: 3px;
+  counter-reset: chapter;
 }
 
-div#date {
+div#postheader, div.postheader {
+  box-shadow: 0px 1px rgba(221, 221, 221, 10%);
+  margin: 0 0 20px 0;
+}
+
+div#date, div.date {
   font-size: 2.5rem;
 }
 
-div#tags {
+div#tags, div.tags {
   text-align: right;
 }
 
-span#tag {
+span.tag {
   margin: 2px;
-}
-
-div#postheader {
-  box-shadow: 0px 1px rgba(221, 221, 221, 10%);
-  margin: 0 0 20px 0;
 }
 
 div#main h1 {
@@ -74,26 +75,50 @@ div#main h1 {
 div#main h2 {
   font-size: 2.3rem;
   font-weight: bold;
+  counter-reset: section;
+}
+div#main h2:before {
+  counter-increment: chapter;
+  content: counter(chapter) '. ';
 }
 
 div#main h3 {
   font-size: 2.1rem;
   font-weight: bold;
+  counter-reset: subsection;
+}
+div#main h3:before {
+  counter-increment: section;
+  content: counter(chapter) '.' counter(section) '. ';
 }
 
 div#main h4 {
   font-size: 2rem;
   font-weight: bold;
+  counter-reset: subsubsection;
+}
+div#main h4:before {
+  counter-increment: subsection;
+  content: counter(chapter) '.' counter(section) '.' counter(subsection) '. ';
 }
 
 div#main h5 {
   font-size: 2rem;
   font-weight: bold;
+  counter-reset: subsubsubsection;
+}
+div#main h5:before {
+  counter-increment: subsubsection;
+  content: counter(chapter) '.' counter(section) '.' counter(subsection) '.' counter(subsubsection) '. ';
 }
 
 div#main h6 {
   font-size: 1.9rem;
   font-weight: bold;
+}
+div#main h6:before {
+  counter-increment: subsubsubsection;
+  content: counter(chapter) '.' counter(section) '.' counter(subsection) '.' counter(subsubsection) '.' counter(subsubsubsection) '. ';
 }
 
 div#main img {

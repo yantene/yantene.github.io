@@ -43,19 +43,19 @@ sudo openconnect -u x123456 gw.vpn.xxx.xx.xx # 接続
 [ocproxy](https://github.com/cernekee/ocproxy)
 というソフトウェアが便利だったので，紹介いたします．
 
-# 概要
+## 概要
 ocproxy は OpenConnect と連携して動作するプロキシソフトウェアです．
 OpenConnect VPN に接続する SOCKS サーバを提供します．
 
-## メリット
+### メリット
 - 必要なソフトウェアのみ VPN を通すことができます
 - OpenConnect の起動に root 権限の必要がなくなります
 
-## デメリット
+### デメリット
 - SOCKS に対応したソフトウェア以外は VPN 接続を行うことができません
   (tsocks を使うと解決できるのかな，わからない)
 
-# インストール
+## インストール
 openconnect (TUTVPN に接続するため)，
 ocproxy (OpenConnect の通信を仲介するプロキシを立てるため)，
 connect (SOCKS サーバに接続するため)の 3 つのソフトウェアが必要です．
@@ -66,7 +66,7 @@ yaourt を導入した Arch Linux の場合，以下のようにして導入す�
 yaourt -S openconnect ocproxy-git connect
 ```
 
-# 起動
+## 起動
 以下のコマンドで 10484 番ポートに SOCKS プロキシが立ちます．
 
 ```bash
@@ -77,9 +77,9 @@ openconnect --script-tun --script 'ocproxy -D 10484' -u x123456 gw.vpn.xxx.xx.xx
 すなわち，SOCKS に対応したアプリケーションであれば，
 `localhost:10484` を指定することで TUTVPN 経由で接続することができます．
 
-# 例
+## 例
 
-## OpenSSH
+### OpenSSH
 たとえば，SSH で `wlinux.edu.tut.ac.jp` に接続するなら，以下のようにすればよいです．
 
 ```bash
@@ -109,7 +109,7 @@ ssh wlinux.tutvpn
 scp wdev.tutvpn:~/hoge.taz .
 ```
 
-## Chromium
+### Chromium
 以下のようにして Chromium (Google Chrome も同様?) を立ち上げると，
 VPN 経由でブラウザが利用できます．
 
@@ -121,7 +121,7 @@ chromium --proxy-server="socks5://localhost:10484"
 上記のコマンドを入力して新たなプロセスを立ち上げても，
 それは VPN 経由とはならないようなのでご注意下さい．
 
-# おわりに
+## おわりに
 今回の記事では，特定のアプリケーションのみを TUT VPN に接続する方法について述べました．
 何か質問等あれば，Twitter あたりでご連絡下さい．
 
