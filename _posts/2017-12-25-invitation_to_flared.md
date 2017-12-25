@@ -47,7 +47,7 @@ Mastodon Advent Calendar の記事を読まれると良いと思います。
 - [Mastodon Advent Calendar 2017 (Qiita)](https://qiita.com/advent-calendar/2017/mastodon)
 
 今では技科大生以外にも開かれたインスタンスになっており、
-ありがたいことに最近では技科大生以外のユーザも見られるようになりましたが、
+ありがたいことに最近では技科大生以外のユーザもローカルTLで見かけるようになりましたが、
 [Fla.red](https://fla.red)のページを見るとわかる通り各所各所に技科大ネタを詰め込んでいます。
 
 ## Fla.red の特徴
