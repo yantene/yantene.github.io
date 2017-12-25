@@ -161,19 +161,14 @@ $\pi$が求まるよ！
 <img class='emoji' alt=":tautology:" title="tautology" src="//media.fla.red/mstdn/custom_emojis/images/000/000/043/original/tautology.png">
 <img class='emoji' alt=":xor:" title="xor" src="//media.fla.red/mstdn/custom_emojis/images/000/000/039/original/xor.png">
 
-#### 分布
+#### その他
 
-統計屋さんが大好き、各種分布の絵文字です。
-きっと統計屋さんには役立つのだと思います。
-
+他にも、統計屋さんが大好き各種分布の絵文字
 <img class='emoji' alt=":norm_dist:" title="正規分布" src="//media.fla.red/mstdn/custom_emojis/images/000/000/027/original/norm_dist.png">
 <img class='emoji' alt=":powlaw_dist:" title="冪分布" src="//media.fla.red/mstdn/custom_emojis/images/000/000/028/original/powlaw_dist.png">
 <img class='emoji' alt=":t_dist:" title="T分布" src="//media.fla.red/mstdn/custom_emojis/images/000/000/029/original/t_dist.png">
 <img class='emoji' alt=":uniform_dist:" title="一様分布" src="//media.fla.red/mstdn/custom_emojis/images/000/000/030/original/uniform_dist.png">
-
-#### その他
-
-他にも、道路標識
+や、町中で見かける道路標識の絵文字
 <img class='emoji' alt=":jrs_207_a:" title="jrs_207_a" src="//media.fla.red/mstdn/custom_emojis/images/000/000/930/original/jrs_207_a.png">
 <img class='emoji' alt=":jrs_214_2_d:" title="jrs_214_2_d" src="//media.fla.red/mstdn/custom_emojis/images/000/000/944/original/jrs_214_2_d.png">
 <img class='emoji' alt=":jrs_301:" title="jrs_301" src="//media.fla.red/mstdn/custom_emojis/images/000/000/946/original/jrs_301.png">
@@ -182,17 +177,15 @@ $\pi$が求まるよ！
 <img class='emoji' alt=":jrs_319:" title="jrs_319" src="//media.fla.red/mstdn/custom_emojis/images/000/000/955/original/jrs_319.png">
 <img class='emoji' alt=":jrs_325:" title="jrs_325" src="//media.fla.red/mstdn/custom_emojis/images/000/000/956/original/jrs_325.png">
 <img class='emoji' alt=":jrs_325_2:" title="jrs_325_2" src="//media.fla.red/mstdn/custom_emojis/images/000/000/957/original/jrs_325_2.png">
-であったり、検尿容器
+、ウンチがあるのに尿がないのは何事かという勢いにまかせて作った検尿容器絵文字
 <img class='emoji' alt=":pee:" title="検尿容器" src="//media.fla.red/mstdn/custom_emojis/images/000/000/441/original/pee.png">
-であったりと、
-さまざまな<s>使うかどうかを差し置いた思いつきの</s>絵文字を多数そろえています。
+などなど、さまざまな<s>使うかどうかを差し置いた思いつきの</s>絵文字を多数そろえています。
 
 ### 最新リリースに追従
 
-このインスタンスは極力迅速に最新リリースに追従しています。
 独自機能を持ったインスタンスはなかなか最新リリースに追従することが難しく、
 古いバージョンにとどまっているところも多いのですが、
-Fla.red は今のところ頑張って追従しています！
+このインスタンスは極力迅速に最新リリースに追従しています。
 
 もちろん私の時間がとれるかどうかにもよるのですが、
 今後も、拡張機能とのコンフリクトが起こらない限りはリリースの当日中にはアップグレードをしたいなと思っています。
